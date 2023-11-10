@@ -1,5 +1,6 @@
 import folium
 import time
+from pedestrianroutes import pedestrian_routes
 
 # Create a map centered on Ingolstadt, Germany
 ingolstadt_map = folium.Map(location=[48.766549705649446, 11.43147624757401], zoom_start=15, tiles='CartoDB positron')
@@ -120,11 +121,16 @@ folium.PolyLine(locations=route_coordinates, color='green', weight=3).add_to(ing
 folium.PolyLine(locations=heavy_traffic, color='red', weight=3).add_to(ingolstadt_map)
 folium.PolyLine(locations=medium_traffic, color='darkorange', weight=3).add_to(ingolstadt_map)
 
+folium.PolyLine(locations=pedestrian_routes,color='black',weight=1,dashArray='4').add_to(ingolstadt_map)
+
 # Create a bus marker for the current GPS position at the start of the route
 bus_icon = folium.features.CustomIcon('bus.png', icon_size=(20, 20))
 station_icon = folium.features.CustomIcon('station.png', icon_size=(20, 20))
-
+def_icon = folium.map.Icon()
 marker = folium.Marker(location=route_coordinates[0], popup="Start", icon=bus_icon).add_to(ingolstadt_map)
+
+for station in stations:
+    folium.Marker(location=station,popup='Station',icon=def_icon).add_to(ingolstadt_map)
 
 # Create station markers at each station and inserting them at the station_location_markers list
 station_location_markers = []
