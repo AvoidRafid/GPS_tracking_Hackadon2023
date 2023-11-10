@@ -88,7 +88,12 @@ def main():
 
     speak_text("By the way, a quick tip for you:")
     speak_text(tip)
-    speak_text("Ginie wishes you a happy trip!")
+    
+    answer = get_user_input("Would you like to see the live tracking of the bus?")
+    if answer == "yes":
+        pass
+    elif answer == "no":
+        speak_text("Okay! Genie wishes you a safe trip!")
 
 if __name__ == "__main__":
     main()
