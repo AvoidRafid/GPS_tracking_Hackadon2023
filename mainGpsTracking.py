@@ -126,11 +126,10 @@ folium.PolyLine(locations=pedestrian_routes,color='black',weight=1,dashArray='4'
 # Create a bus marker for the current GPS position at the start of the route
 bus_icon = folium.features.CustomIcon('bus.png', icon_size=(20, 20))
 station_icon = folium.features.CustomIcon('station.png', icon_size=(20, 20))
-def_icon = folium.map.Icon()
+
 marker = folium.Marker(location=route_coordinates[0], popup="Start", icon=bus_icon).add_to(ingolstadt_map)
 
-for station in stations:
-    folium.Marker(location=station,popup='Station',icon=def_icon).add_to(ingolstadt_map)
+
 
 # Create station markers at each station and inserting them at the station_location_markers list
 station_location_markers = []
