@@ -151,7 +151,7 @@ marker = folium.Marker(location=route_coordinates[0], popup="Start", icon=bus_ic
 x = df[['latitude', 'longitude']].copy()
 
 for index, row in x.iterrows():
-    pushpin = folium.features.CustomIcon('station.png', icon_size=(40, 40))
+    pushpin = folium.features.CustomIcon('station.png', icon_size=(40, 40), icon_anchor=(9,40))
     folium.Marker([row['latitude'], row['longitude']],
                   icon=pushpin,
                   ).add_to(ingolstadt_map)
