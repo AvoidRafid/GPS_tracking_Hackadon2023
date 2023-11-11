@@ -14,14 +14,13 @@ What if I could have instant information about where they are headed and the rou
 At this point, we came together as a team and sought a solution to eliminate the daily struggles we faced.
 Our team “INTFINITY” came up with an idea ,with the purpose of assisting those racing against time every day, and to enhance functionality and usability for transport navigation users.
 
-Our project allowed tracking buses on bus routes in real-time.
-Knowing where they were at any given moment reduced the anxiety of missing them.
+Our project allowed tracking buses on bus routes in real-time, so that users know where they were at any given moment.
 
 
 Now, instead of worrying about missing buses and being late, 
 we embark on a journey filled with real-time information.
 With this project, we took a step towards making every moment more valuable and enhancing our quality of life. 
-Even we can run to bus stop when we are talking with our voice assistant GENEI :).
+Even we can run to bus stop when we are talking with our voice assistant GENIE :).
 
 
 Perhaps this story is not just mine; maybe you are experiencing the same struggles. 
