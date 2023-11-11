@@ -26,7 +26,8 @@ With this project, we took a step towards making every moment more valuable and 
 Even we can run to bus stop when we are talking with our voice assistant GENEI :).
 
 
-Perhaps this story is not just mine; maybe you are experiencing the same struggles. However, this project is not just a bus tracking system; it can also be a beacon of hope for everyone chasing time.
+Perhaps this story is not just mine; maybe you are experiencing the same struggles. 
+However, this project is not just a bus tracking system; it can also be a beacon of hope for everyone chasing time.
 
 
 
