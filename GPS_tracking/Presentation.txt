@@ -3,14 +3,14 @@ PITCH TALK:
 
 The Miracle of Those Chasing Time:
 
-Like millions of others navigating the hustle of commuting every day, I too was living my own story in this modern world where time is of the essence. Buses arriving at the last minute, followed by the anxiety of missing them – these troubles had become part of this urban life.
+Like millions of others navigating the hustle of catching every day, I too was living my own story in this modern world where time is of the essence. Buses arriving at the last minute, followed by the anxiety of missing them – these troubles had become a part of this urban life.
 
 Some of us frequently missing buses and racing against time to catch them at the last minute. Every day, some embarked on the quest to make it to work or somewhere else on time, yet sometimes we couldn’t make it.
 
- What if I could track buses in real-time?
- What if I could have instant information about where they are headed and the routes they are on? 
+What if I could track buses in real-time?
+What if I could have instant information about where they are headed and the routes they are on? 
 
-It was at this very moment that my dream began to come true.
+It was at this very moment that our dream began to come true.
 
 
 At this point, we came together as a team and sought a solution to eliminate the daily struggles we faced.
@@ -18,13 +18,12 @@ Our team “INTFINITY” came up with an idea ,with the purpose of assisting tho
 
 Our project allowed tracking buses on bus routes in real-time.
 Knowing where they were at any given moment reduced the anxiety of missing them.
-It not only improved time management but also enhanced the quality of our daily lives by decreasing our anxiety.
 
-This journey we had here for this two day, marked the beginning of a revolution in the lives of those chasing time. 
+
 Now, instead of worrying about missing buses and being late, 
 we embark on a journey filled with real-time information.
 With this project, we took a step towards making every moment more valuable and enhancing our quality of life. 
-Even we can run when we are talking with our voice assistant GENEI.
+Even we can run to bus stop when we are talking with our voice assistant GENEI :).
 
 
 Perhaps this story is not just mine; maybe you are experiencing the same struggles. However, this project is not just a bus tracking system; it can also be a beacon of hope for everyone chasing time.
