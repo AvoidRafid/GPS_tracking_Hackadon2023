@@ -22,28 +22,6 @@ Without futher delay, let us enlighten you with our ideas!
 I present you, Amar!
 
 
-PRESENTATION IDEAS:
-Hello everyone,
-Having the power to track the location of your bus in real-time, allowing you to make more informed decisions about your daily travel.
-
-
-1. Geopoints Generator Function:
-Our application starts with a sophisticated geopoints generator function. We use the capabilities of the Open Source Routing Machine, we create precise geopoints that represent the optimal route for you. This ensures that the routes are not only accurate but also efficiently generated for your travel with personal vehicle.
-
-
-2. Traffic Jam Detection:
-What sets us apart is our ability to analyze traffic conditions in real-time. By integrating various datasets, we monitor these geopoints for any signs of traffic congestion. This allows us to pinpoint potential delays and disruptions in the bus route with a color. Green to vicious red.
-
-
-3. Interactive Map Display:
-The information gathered is then seamlessly presented on an interactive map. Users can easily visualize the current location of active buses and identify areas of traffic congestion. This intuitive display makes it convenient for commuters to plan their journeys more effectively.
-
-4.Voice Assistant(GINIE)
-
-
-5. Improved Travel Experience:
-Ever found yourself waiting at a bus stop, wondering why your bus is running late? Our Real-Time Bus Tracker provides answers. Travelers can now see the active buses on their route and, more importantly, understand the reasons behind any delays. It's all about empowering the people who wants to reach the destination with real-time information for a smoother and stress-free journey.
-
 
 Conclusion:
 Our Real-Time Bus Tracker is not just an application; it's a tool designed to enhance the overall experience of Bus Stop :)). 
