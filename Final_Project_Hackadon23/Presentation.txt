@@ -6,17 +6,16 @@ For Those Chasing Time:
 Like millions of others navigating the hustle of commuting every day, I too was living my own story in this modern world where time is of the essence.
 Buses arriving at the last minute, followed by the anxiety of missing them – these troubles had become part of this urban life.
 
+Every day, we are trying to get somewhere on time but sometimes we couldn't make it. 
+
  What if I could track buses in real-time?
  What if I could have instant information about where they are headed and the routes they are on? 
 
 At this point, Our team “INTFINITY”  came up with a solution to overcome this issue.
 
-Our project allowed tracking buses on bus routes in real-time.
-Knowing where they were at any given moment reduced the anxiety of missing them.
+Knowing where the busses are can reduce the anxiety of missing them.
 
 This journey we had here for this two day has inspired us further to improve usability and functionality of bus navigating app.
-
-With such an implementation, it could improve the quality of life. 
 
 Perhaps when you're trying to catch the bus, maybe you could even talk to our voice assistant GENIE! Or when you're bored at the bus stop!
 
