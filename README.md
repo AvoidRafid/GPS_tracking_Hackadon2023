@@ -17,7 +17,7 @@ There are also some fixed walking routes displayed on the map but it can't perfo
 The current build is not yet set up to receive live GPS data.
 
 ## Usage
-After downloading the repository, navigate to the `Final_Project_Hackadon23` sub-directory. To use the voice assistant, run the `main.py` file, or to simply run the bus-tracking app, run the `gps_tracking_main.py` file.
+After downloading the repository, navigate to the `Final_Project_Hackadon23` sub-directory. Before running, you need a subscription key and endpoint from Azure and put them in the `main.py` file in the `get_user_input` function. To use the voice assistant, run the `main.py` file, or to simply run the bus-tracking app, run the `gps_tracking_main.py` file.
 
 ## Test Cases
 These are the test cases we used to check the voice assistant's ability to accept inputs and provide relevant data:
