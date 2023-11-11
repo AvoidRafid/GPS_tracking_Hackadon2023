@@ -15,8 +15,6 @@ At this point, Our team “INTFINITY”  came up with a solution to overcome thi
 
 Knowing where the busses are can reduce the anxiety of missing them.
 
-This journey we had here for this two day has inspired us further to improve usability and functionality of bus navigating app.
-
 Perhaps when you're trying to catch the bus, maybe you could even talk to our voice assistant GENIE! Or when you're bored at the bus stop!
 
 Without futher delay, let us enlighten you with our ideas!
