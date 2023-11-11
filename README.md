@@ -1,4 +1,4 @@
-# Voice and Graphical Interface for VGI
+# VGI 2.0
 
 This project builds a new interface for the VGI public transport app that enables users to use voice commands to interact with the app, making it more accessible to visually impaired users, and adding functionality to make it a better user experience.
 
