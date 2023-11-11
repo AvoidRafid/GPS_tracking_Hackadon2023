@@ -34,8 +34,10 @@ These are the test cases we used to check the voice assistant's ability to accep
 
 
 ## Screenshots
-Current Map View
-![Current Map View](ScreenshotDay3.png)
+Current Map View 
+ 
+<img src="Bus_route.png" alt="Current Map View" width="220"/>
+
 
 ## Packages Used
 `openmeteo-requests` for the weather api 
