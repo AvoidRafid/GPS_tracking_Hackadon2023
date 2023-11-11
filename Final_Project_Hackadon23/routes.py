@@ -46,9 +46,9 @@ def calculate_time(starting_point, end_point, current_time):
                     target = item
 
     if target:
-        print(f'Take bus number{target[2]} departing at{target[3]}.')
+        return f'Take bus number{target[2]} departing at{target[3]}.'
     else:
-        print("No possible routes")
+        return "No possible routes"
 
 
 
