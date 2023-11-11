@@ -17,4 +17,24 @@ There are also some fixed walking routes displayed on the map but it can't perfo
 The current build is not yet set up to receive live GPS data.
 
 ## Screenshots
+Current Map View
+![Current Map View](ScreenshotDay3.png)
+
+## Packages Used
+'openmeteo-requests' for the weather api
+'requests-cache' to access weather data
+'retry-requests' to retry failed requests
+'csv' to access sample data
+'datetime' for time calculations
+'folium' for map generation
+'time' for waiting
+'pandas' for coordinate storage
+'azure-cognitiveservices-speech' for voice recognition
+'pyttsx3' for text to speech
+
+## Features
+We have rebranded the existing app to modernise its look. Our live bus-tracking is a new feature that gives users peace-of-mind when dealing with delays and our voice assistant makes the app easier to use and more accessible to people with visual impairments and also provides tailored travel advice based on current conditions.
+
+## Contributors
+Amar Munoglu, Cassandra Soong, Md Rafidul Islam Rafid, Fatih Ozkan, Ksenija Vojvodic, Thomas Williams
 
