@@ -17,8 +17,8 @@ def trigger(prompt):
     speak_text(prompt)
 
     #setting up azure
-    subscription_key = "bb044baee5d7476e93585c526562fc27"
-    endpoint = "https://germanywestcentral.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
+    subscription_key = "INSERT YOUR SUBSCRIPTION KEY"
+    endpoint = "INSERT ENDPOINT"
 
     speech_config = speechsdk.SpeechConfig(subscription=subscription_key, endpoint=endpoint)
     audio_input = speechsdk.AudioConfig(use_default_microphone=True)
@@ -41,8 +41,8 @@ def trigger(prompt):
 
 def get_user_input(prompt, max_retries=2):
     #setting up azure
-    subscription_key = "bb044baee5d7476e93585c526562fc27"
-    endpoint = "https://germanywestcentral.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
+    subscription_key = "INSERT YOUR SUBSCRIPTION KEY"
+    endpoint = "INSERT ENDPOINT"
     
     for retry in range(max_retries + 1):
         speak_text(prompt)
