@@ -16,9 +16,9 @@ def speak_text(text, rate=130):
 def trigger(prompt):
     speak_text(prompt)
 
-    #setting up azure
-    subscription_key = "INSERT YOUR SUBSCRIPTION KEY"
-    endpoint = "INSERT ENDPOINT"
+    # setting up azure
+    subscription_key = "bb044baee5d7476e93585c526562fc27"
+    endpoint = "https://germanywestcentral.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
 
     speech_config = speechsdk.SpeechConfig(subscription=subscription_key, endpoint=endpoint)
     audio_input = speechsdk.AudioConfig(use_default_microphone=True)
@@ -41,8 +41,8 @@ def trigger(prompt):
 
 def get_user_input(prompt, max_retries=2):
     #setting up azure
-    subscription_key = "INSERT YOUR SUBSCRIPTION KEY"
-    endpoint = "INSERT ENDPOINT"
+    subscription_key = "bb044baee5d7476e93585c526562fc27"
+    endpoint = "https://germanywestcentral.api.cognitive.microsoft.com/sts/v1.0/issuetoken"
     
     for retry in range(max_retries + 1):
         speak_text(prompt)
@@ -90,14 +90,14 @@ def main():
         print("Minutes", minutes)
     '''
     if hour and minutes:
-        time = hour.strip(".") + ":" + minutes.strip(".")
+        time1 = hour.strip(".") + ":" + minutes.strip(".")
     
     # formatting
     starting_point = starting_point.strip(".")
     destination =  destination.strip(".")
 
     # bus departure
-    route  = routes.calculate_time(starting_point, destination, time)
+    route  = routes.calculate_time(starting_point, destination, time1)
     speak_text(route)
 
     time.sleep(1)
@@ -113,12 +113,13 @@ def main():
     
     #live tracking offer
     answer = get_user_input("Would you like to see the live tracking of the bus?")
-    if answer.trim(".") == "yes":
+    if answer.strip(".") == "yes":
         subprocess.run(['python3', 'gps_tracking_main.py'])
-    elif answer.trim(".") == "no":
+    elif answer.strip(".") == "no":
         speak_text("Okay! Genie wishes you a safe trip!")
 
 
+    
 if __name__ == "__main__":
     main()
 
