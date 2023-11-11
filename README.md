@@ -16,6 +16,23 @@ The live bus tracking is currently simulated using sample data and can automatic
 There are also some fixed walking routes displayed on the map but it can't perform any navigation.
 The current build is not yet set up to receive live GPS data.
 
+## Usage
+After downloading the repository, navigate to the `Final_Project_Hackadon23` sub-directory. To use the voice assistant, run the `main.py` file, or to simply run the bus-tracking app, run the `gps_tracking_main.py` file.
+
+## Test Cases
+These are the test cases we used to check the voice assistant's ability to accept inputs and provide relevant data:
+
+| starting | destination | busnumber | time |
+|-----|----|----|----|
+| Central | Square | 11 | 14:00 |
+| Central | Square | 11 | 14:30 |
+| Central | Square | 11 | 15:00 |
+| Central | Square | 11 | 15:30 |
+| Harbor | Mall | 20 | 13:00 |
+| Harbor | Mall | 20 | 13:30 |
+| Harbor | Mall | 20 | 14:00 |
+
+
 ## Screenshots
 Current Map View
 ![Current Map View](ScreenshotDay3.png)
