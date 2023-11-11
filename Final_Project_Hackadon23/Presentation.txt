@@ -47,10 +47,11 @@ Ever found yourself waiting at a bus stop, wondering why your bus is running lat
 
 Conclusion:
 Our Real-Time Bus Tracker is not just an application; it's a tool designed to enhance the overall experience of Bus Stop :)). 
-With precise geopoints, traffic analysis, voice assistant and an interactive map, we bring transparency to public transportation. Say goodbye to uncertainties and hello to a more informed and efficient daily commute.
+Say goodbye to uncertainties and hello to a more informed and efficient VGI app!
 
 Thank you for your time, and we look forward to transforming the way you travel!
 
+"To get there speedy, talk to GENIE!" 
 
 
 
