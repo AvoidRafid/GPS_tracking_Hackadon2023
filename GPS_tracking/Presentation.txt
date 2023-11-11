@@ -10,11 +10,9 @@ Some of us frequently missing buses and racing against time to catch them at the
 What if I could track buses in real-time?
 What if I could have instant information about where they are headed and the routes they are on? 
 
-It was at this very moment that our dream began to come true.
-
 
 At this point, we came together as a team and sought a solution to eliminate the daily struggles we faced.
-Our team “INTFINITY” came up with an idea ,with the purpose of assisting those racing against time every day.
+Our team “INTFINITY” came up with an idea ,with the purpose of assisting those racing against time every day, and to enhance functionality and usability for transport navigation users.
 
 Our project allowed tracking buses on bus routes in real-time.
 Knowing where they were at any given moment reduced the anxiety of missing them.
